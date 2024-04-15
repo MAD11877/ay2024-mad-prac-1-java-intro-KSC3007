@@ -18,6 +18,19 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
-    
+    System.out.print("Number of rows: ");
+    int rows = in.nextInt();
+    for (int a = rows - 1; a >= 0; a--) {
+
+      // Inner loop for columns
+      for (int b = 0; b <= a; b++) {
+
+          // Prints star and space
+          System.out.print("*");
+      }
+      // By now we are done with single row so new
+      // line
+      System.out.println();
+    }
   }
 }
