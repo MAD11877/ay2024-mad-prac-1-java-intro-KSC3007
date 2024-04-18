@@ -10,11 +10,10 @@ public class Question3
      * Hint: in.nextInt() to read integer
      */
      
-    Scanner sc = new Scanner(System.in);
-    System.out.print("Input integer: ");
-    int input = sc.nextInt();
+    Scanner in = new Scanner(System.in);
+    int input = in.nextInt();
     int result = (input * input);
-    System.out.print("Result: " + result);
+    System.out.print(result);
     
   }
 }
